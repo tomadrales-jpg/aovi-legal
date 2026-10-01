@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · AOVI</title>
+<link rel="alternate" hreflang="es" href="https://tomadrales-jpg.github.io/aovi-legal/privacy/">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #16181d; --muted: #5b6472; --rule: #e4e7ec;
+    --accent: #2f5bd7; --card: #f6f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1115; --fg:#e8eaee; --muted:#9aa3b2; --rule:#262b34; --accent:#7f9cf5; --card:#161a21; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.9rem; line-height:1.2; margin:0 0 .35rem; letter-spacing:-.02em; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing:-.01em; }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .35rem; }
+  p, li { color: var(--fg); }
+  .lead, .meta { color: var(--muted); }
+  .meta { font-size:.9rem; margin:0 0 2rem; }
+  hr { border:0; border-top:1px solid var(--rule); margin:2.5rem 0; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width:100%; margin:.8rem 0; font-size:.95rem; display:block; overflow-x:auto; }
+  th, td { text-align:left; padding:.55rem .7rem; border-bottom:1px solid var(--rule); vertical-align:top; }
+  th { font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:1rem 1.1rem; margin:1.2rem 0; }
+  code { background:var(--card); padding:.1rem .35rem; border-radius:4px; font-size:.9em; }
+  footer { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="meta"><a href="https://tomadrales-jpg.github.io/aovi-legal/privacy/" hreflang="es" lang="es">Español</a></p>
+
+<h1>AOVI Privacy Policy</h1>
+<p class="meta">Last updated: 1 October 2026 · Version 2.1 · For AOVI 2.0</p>
+
+<p class="lead">AOVI is a wellbeing app for iPhone and Apple Watch. This policy explains what data
+the app handles, what leaves your iPhone, where it goes, with which permission, and how you can
+withdraw it. It describes what the app does, not what it might do. If this translation and the
+<a href="https://tomadrales-jpg.github.io/aovi-legal/privacy/">Spanish version</a> ever differ, the Spanish version applies.</p>
+
+<div class="card">
+<strong>The short version.</strong>
+<ul>
+  <li>Your data lives on your iPhone, and you can use AOVI without an account.</li>
+  <li>The Coach that answers on your iPhone (with Apple Intelligence) sends nothing.</li>
+  <li>With AOVI PRO, if the AOVI Coach isn't available, Apple's AI can answer: on your iPhone or,
+  if you allow it, on Apple's Private Cloud Compute (section 3).</li>
+  <li>Nothing about your health goes to the AI on our server unless you turn on that specific permission.</li>
+  <li>Your journal is encrypted and never leaves your iPhone. Neither do your clothing photos or
+  your skin and hair selfies.</li>
+  <li>The app sends anonymous crash diagnostics, which you can turn off. Usage counts are only
+  sent if you agree.</li>
+  <li>We don't sell data. No ads, no cross-app tracking.</li>
+</ul>
+</div>
+
+<h2>1 · Data controller and who else is involved</h2>
+<p>Controller: <strong>Tomás López Álvarez</strong>.
+Privacy contact: <a href="mailto:tomadrales@hotmail.com">tomadrales@hotmail.com</a>. You can
+write to that address to exercise any of the rights in section 9.</p>
+
+<h3>Our server</h3>
+<p>When something leaves your iPhone for AOVI, it goes to <strong>our own server</strong>, run by
+AOVI's developer. It is located in Spain. It is reachable over
+the internet through an encrypted connection (HTTPS), via the Tailscale Funnel service.
+<strong>AOVI does not use iCloud</strong> to store your data.</p>
+
+<h3>Who else handles data</h3>
+<ul>
+  <li><strong>vidAI</strong> processes requests to the server Coach (section 3).
+  vidAI is the AOVI developer's own AI infrastructure, on the same server in Spain: your data is not shared with third parties for the Coach.</li>
+  <li><strong>Apple</strong>, as a processor, for weather (Apple Weather), purchases (App Store),
+  Sign in with Apple and Health. Apple handles that data under its own policy.</li>
+  <li><strong>Apple</strong>, also, for Private Cloud Compute, if you have AOVI PRO and the AOVI
+  Coach isn't available (section 3). We don't receive or keep those conversations.</li>
+</ul>
+
+<h2>2 · What data the app handles</h2>
+<table>
+<tr><th>Category</th><th>Examples</th><th>Where it's stored</th><th>Does it leave your iPhone?</th></tr>
+<tr><td>Account (optional)</td><td>Email and password, or Sign in with Apple (identifier; name and email if you choose to share them)</td><td>Session in the iPhone Keychain; the account on our server</td><td>Yes, when you create the account or sign in</td></tr>
+<tr><td>Wellbeing</td><td>WHO-5 check-in, mood, water, meals, plan, goals</td><td>iPhone</td><td>Only as described in section 3</td></tr>
+<tr><td>Health and activity</td><td>What you allow from Health (section 4)</td><td>iPhone. Health remains the source</td><td>Only summaries, with the "Health signals" permission</td></tr>
+<tr><td>Journal</td><td>Your mood journal entries</td><td>iPhone, encrypted</td><td>No</td></tr>
+<tr><td>WHO-5 notes</td><td>What you write alongside the check-in</td><td>iPhone</td><td>No</td></tr>
+<tr><td>Clothing photos and skin and hair selfies</td><td>Presence</td><td>iPhone, encrypted and excluded from iCloud backup</td><td>No</td></tr>
+<tr><td>Meal photos</td><td>The ones you choose to estimate nutrients</td><td>Not stored</td><td>Yes, with the "Photos" permission</td></tr>
+<tr><td>Voice</td><td>Your voice turns with the Coach</td><td>Not stored on the iPhone</td><td>Yes, with the "Voice" permission</td></tr>
+<tr><td>Calendar</td><td>Your events, to show them and find free slots</td><td>iPhone (your calendar)</td><td>Only a summary: number of events, busy minutes and the next free slot. Never titles or locations</td></tr>
+<tr><td>Screen Time</td><td>Whether you went over 1, 2 or 3 hours today in the apps you choose</td><td>iPhone</td><td>No</td></tr>
+<tr><td>Location</td><td>Approximate location, only while you use the app</td><td>No history is kept</td><td>To Apple Weather, for the weather</td></tr>
+<tr><td>Purchases</td><td>Whether you have AOVI PRO</td><td>Apple; the app only knows the status</td><td>With an account, the purchase identifier goes to our server</td></tr>
+<tr><td>Technical</td><td>Model, system and app version, language, random identifiers</td><td>iPhone</td><td>In anonymous diagnostics (section 7) and, with an account, with the session and the copy</td></tr>
+</table>
+
+<h3>Account (optional)</h3>
+<p>Without an account, everything stays on your iPhone. You only need an account for the server
+Coach, for the copy of your metrics on our server and for AOVI PRO. With an account, our server
+keeps your email and what it needs to check your password (or, with Apple, its identifier and
+your name if you share it), a random identifier for your iPhone, the app version, and an access
+log (IP address and device type).</p>
+
+<h3>Photos and camera</h3>
+<ul>
+  <li><strong>Meals.</strong> With the "Photos" permission, the photo you choose is scaled down
+  and sent to the server Coach to estimate calories and nutrients. It is not stored. Saving the
+  result to Health always needs your confirmation.</li>
+  <li><strong>Clothing (Presence).</strong> The cut-out, colour and garment type are worked out
+  on the iPhone. If a face appears in the photo, it is covered before saving.</li>
+  <li><strong>Skin and hair selfie.</strong> Face points (eyes, tilt) are worked out on the iPhone
+  to analyse the skin. They are not stored separately from the photo and never leave the
+  iPhone.</li>
+  <li>Presence photos are stored encrypted, with a key that only exists on this iPhone, and are
+  excluded from iCloud backup.</li>
+  <li><strong>Sample wardrobe.</strong> If you ask for it, the app asks the server for a sample
+  wardrobe and downloads its photos. To do that it sends your style (womenswear, menswear or
+  neutral) and, with the "Health signals" permission, your colour season, worked out on the
+  iPhone from the selfie. The style comes from what you choose in the app, not from Health data.</li>
+  <li><strong>Save image.</strong> Cards you share are only saved to Photos if you ask.</li>
+</ul>
+
+<h3>Screen Time</h3>
+<p>It is optional. You pick the apps with Apple's picker. AOVI can't see which apps they are or
+how many minutes you use them: it only knows whether you went over 1, 2 or 3 hours in them today.
+It uses this on the iPhone to work out your Mind measure.</p>
+
+<h3>Calendar, Reminders and HomeKit</h3>
+<ul>
+  <li><strong>Calendar:</strong> the app reads your events on the iPhone to show them, warn you
+  about clashes and suggest free slots, and creates events when you plan. The Coach only gets the
+  summary from the table above.</li>
+  <li><strong>Reminders:</strong> only if you turn it on, to export your shopping list and tasks.</li>
+  <li><strong>HomeKit:</strong> only if you turn it on, to dim the lights of your meditation scene
+  and put them back when you finish. The names of your home and room stay on the iPhone.</li>
+</ul>
+
+<h3>Location and Apple Weather</h3>
+<p>With your permission, and only while you use the app, AOVI asks for your <strong>approximate
+location</strong> to check the weather with Apple Weather (Apple is the processor). It uses the
+weather to adjust your outfit, your plan and your water for the day. Your location goes to Apple
+Weather, not to our server, and no history is kept.</p>
+
+<h2>3 · What leaves your device, and with which permission</h2>
+
+<h3>The Coach with Apple's AI (AOVI PRO)</h3>
+<p>The Coach answers from our server first. With AOVI PRO, if it can't be reached (no network, no
+account or the server is down), Apple's AI can answer instead. You can turn this off in
+<em>Profile → Account and AI → Apple AI</em>, and each answer shows who gave it.</p>
+<ul>
+  <li><strong>On your iPhone.</strong> On iPhones with iOS 26 and Apple Intelligence, Apple's model
+  answers on the iPhone itself. Those conversations don't leave your iPhone.</li>
+  <li><strong>Private Cloud Compute.</strong> Only if you turn on "Allow Private Cloud Compute" (it is
+  off by default), on iOS 27, with a network connection and the "Text and context" permission, the same message and context that would go to our server can go to Private
+  Cloud Compute, Apple's servers for Apple Intelligence. Apple processes them to answer and, according
+  to Apple, doesn't keep them; Apple handles that data under its own policy. We don't receive or keep
+  that conversation. If you turn it off again, only the iPhone answers. Apple sets a daily usage limit.</li>
+</ul>
+<p>The sentence of the day on Today and, with AOVI PRO, the "Your week" summary are also written by
+the iPhone's model, from your measures and without anything leaving it.</p>
+
+<h3>The server Coach (with an account)</h3>
+<p>With an account, the Coach can also answer from our server, processed by vidAI. Allowing the
+microphone or Health in iOS does <strong>not</strong> mean allowing data to be sent: each purpose
+is granted separately in <em>Profile → Account and AI → Privacy and AI</em>, is recorded with its
+date and version, and can be withdrawn at any time with immediate effect.</p>
+
+<table>
+<tr><th>Permission</th><th>What is sent</th><th>Retention</th></tr>
+<tr><td>Text and context</td><td>Your messages and the earlier turns of the conversation; your allergies, if you turn on the allergy profile; your calendar summary (number of events, busy minutes, next free slot); the time of day; your consistency over the last 7 days and your preferred hours; and what the Coach remembers about you that you have confirmed</td><td>Processed to reply. See section 8</td></tr>
+<tr><td>Voice</td><td>The audio of your voice turns: the server transcribes it and replies out loud. The same context goes with your voice, plus your priority and your chronotype</td><td>Processed for that reply and not used for anything else</td></tr>
+<tr><td>Photos</td><td>The meal photos you choose, to estimate calories and macronutrients</td><td>Processed for the estimate and not stored</td></tr>
+<tr><td>Health signals</td><td>Rounded summaries: your WHO-5, your measures (Body, Mind, Nutrition and Balance), heart rate variability, resting heart rate, sleep, alerts and your latest actions</td><td>Sent with each turn and not stored separately. When you withdraw the permission, they stop being sent immediately</td></tr>
+</table>
+
+<ul>
+  <li>Without the "Health signals" permission, that data isn't even prepared inside the app.</li>
+  <li>Your journal and your WHO-5 notes are never sent for any purpose.</li>
+  <li>If the app detects crisis words, it doesn't pass that message to the Coach: it shows you
+  helplines for your country.</li>
+  <li>The AI server may remember facts from your conversations to answer you better. You can
+  delete them with "Clear Coach memory" (section 8).</li>
+  <li>The Coach suggests and you decide: it never acts on its own.</li>
+  <li>We don't use your data to train models.</li>
+</ul>
+
+<h3>Day plan and memory (AOVI PRO)</h3>
+<p>With AOVI PRO and the "Health signals" permission, the app can ask the server to improve your
+day plan and to summarise what it knows about you. It sends your measures, the time, today's
+tasks, the habits it has learned and its own proposal. Never your journal or your Health history.
+What AOVI knows about you can be viewed, edited and deleted on the iPhone, in <em>Profile →
+Account and AI → What AOVI knows about you</em>.</p>
+
+<h3>Recommendation feedback (with an account)</h3>
+<p>When you rate a recommendation, the app sends our server which one it was, its module and
+title, what you did and when. Your WHO-5 score is only included if you have given the "Health
+signals" permission.</p>
+
+<h3>Copy of your metrics on the server (AOVI PRO, optional)</h3>
+<p>If you turn it on in <em>Profile → Advanced → Cloud Sync</em>, once a day the app uploads a
+summary to our server: your wellbeing score, how many WHO-5 check-ins you've done and the latest
+score, counts of your recommendations, the app version, language, time zone, system, iPhone model
+and a random identifier for the iPhone. It is a copy: today the app doesn't use it to restore your
+data on another iPhone.</p>
+
+<h2>4 · Health data (HealthKit)</h2>
+<p>AOVI only reads what you allow from Health: sleep, heart rate and its variability, resting
+heart rate, high, low or irregular heart rate notifications, respiration, blood oxygen, wrist
+temperature, steps, activity, energy, effort and workouts, time in daylight, weight, height,
+VO₂ max, state of mind, mindful minutes, nutrition and, if they are in Health, the PHQ-9 and
+GAD-7 questionnaires. With your permission it also reads your date of birth and sex to calibrate
+the measures and the Monitor figure. It uses all this on the iPhone to work out Body, Mind and
+Nutrition.</p>
+<p>AOVI writes water, reviewed meals (energy and nutrients, caffeine and alcohol), mindful minutes
+and your state of mind to Health when you log or confirm them. The Apple Watch reads your heart
+rate during guided breathing and saves the mood and water you log.</p>
+<ul>
+  <li>PHQ-9 and GAD-7 are only used inside the app to soften the suggestions on a difficult day:
+  they are never shown or sent.</li>
+  <li>We don't use Health data for advertising or marketing. We don't sell it. We don't store it
+  in iCloud.</li>
+  <li>Only summaries leave the device, with the "Health signals" permission (section 3).</li>
+  <li>You can revoke access at any time in the iOS Health app.</li>
+</ul>
+
+<h2>5 · What we don't do</h2>
+<ul>
+  <li>We don't sell personal data.</li>
+  <li>We don't track you across apps or websites, and we don't share data with ad networks.</li>
+  <li>We don't include third-party analytics or advertising SDKs.</li>
+  <li>We never send your journal, your notes or the titles of your calendar events.</li>
+</ul>
+
+<h2>6 · Subscriptions</h2>
+<p>Purchases are processed by Apple through StoreKit. We don't receive or store your payment
+details. The app only knows your subscription status. AOVI PRO is only unlocked by an App Store
+purchase. If you have an account, the purchase identifier is shared with our server.</p>
+
+<h2>7 · Diagnostics and support</h2>
+
+<h3>Anonymous diagnostics (on by default)</h3>
+<p>To find and fix problems, the app sends our server:</p>
+<ul>
+  <li>crash, hang and performance reports from the system (Apple's MetricKit);</li>
+  <li>error codes, with the name of the screen where they happened;</li>
+  <li>with each upload: a random installation identifier, the app version, the system, the iPhone
+  model, the language, and whether the app came from TestFlight or the App Store.</li>
+</ul>
+<p>They don't include your name, email, account, texts or health data, and the installation
+identifier is not linked to your account. They are kept for <strong>30 days</strong>. You can turn
+them off in <em>Profile → Advanced → Anonymous diagnostics</em>; when you do, the app discards
+anything still waiting to be sent.</p>
+
+<h3>Feature usage (only if you agree)</h3>
+<p>If you agree at the welcome screen or in <em>Profile → Advanced</em>, the app also sends daily
+usage counts with no content: how many times you open the app, do the check-in, complete an action
+or open a notification, and who answered the Coach (our server, Apple's AI or none). Never which
+task, which mood or what you wrote. They use the same
+installation identifier and can be turned off the same way.</p>
+
+<h3>Support bundle</h3>
+<p>If you ask us for help, you can generate a support bundle in <em>Profile → Support and
+diagnostics</em>. It is only created when you ask, and only leaves your iPhone if you send it. It
+contains technical information: version, settings, permissions, recent errors and diagnostics.
+Logs mask emails, credentials and tokens, and never include the body of network requests.</p>
+
+<h2>8 · Retention and deletion</h2>
+<ul>
+  <li><strong>Signing out</strong> disconnects the account from the server. Your data stays on the device; it is deleted if another account signs in or if you delete yours.</li>
+  <li><strong>Deleting the account</strong> from Settings deletes your account and its data on the server and, after that, the data on this device. If the server doesn't confirm the deletion, the app tells you and deletes nothing.</li>
+  <li>What the AI assistant remembers is deleted separately, with <strong>Clear Coach memory</strong> in Settings.</li>
+  <li><strong>Uninstalling</strong> the app removes everything stored locally.</li>
+  <li>You can revoke access to Health, calendar, microphone or location in iOS Settings.</li>
+</ul>
+<p>Where to find them: <em>Profile → Account and AI → Your data</em>, with "Delete account and
+data" and "Clear Coach memory". If you use AOVI without an account, "Delete account and data"
+deletes the data on this iPhone. Deleting the account doesn't cancel your App Store subscription:
+cancel it separately in <em>iOS Settings → [your name] → Subscriptions</em>.</p>
+<p>The journal and Presence photos use a key that only exists on this iPhone: they don't move to
+another iPhone with a backup.</p>
+
+<table>
+<tr><th>What</th><th>Where</th><th>How long</th></tr>
+<tr><td>What the app stores</td><td>Your iPhone</td><td>Until you delete it or uninstall the app</td></tr>
+<tr><td>Account</td><td>Our server</td><td>Until you delete it</td></tr>
+<tr><td>Copy of your metrics (PRO)</td><td>Our server</td><td>Until you delete the account</td></tr>
+<tr><td>Recommendation feedback</td><td>Our server</td><td>Until you delete the account</td></tr>
+<tr><td>Conversations with the server Coach</td><td>AI server</td><td>14 days; after that, archived until you delete the account or the Coach's memory</td></tr>
+<tr><td>What the Coach remembers about you</td><td>AI server</td><td>Until you use "Clear Coach memory"</td></tr>
+<tr><td>Anonymous diagnostics and usage counts</td><td>Our server</td><td>30 days</td></tr>
+<tr><td>Access log (IP and device type)</td><td>Our server</td><td>Up to 12 months</td></tr>
+<tr><td>Server technical logs</td><td>Our server</td><td>Up to 12 months</td></tr>
+</table>
+
+<h2>9 · Your rights</h2>
+<p>If the General Data Protection Regulation applies to you, you have the right to access,
+rectify, erase, restrict, port and object to the processing of your personal data. Write to
+<a href="mailto:tomadrales@hotmail.com">tomadrales@hotmail.com</a> and we will reply within the
+legal deadline. You can also complain to the supervisory authority in your country. In Spain,
+that is the Agencia Española de Protección de Datos.</p>
+<p>The legal basis is the performance of the service you ask for (the account, the copy and the
+subscription); for health data and sending data to the AI, your explicit consent, which you can
+withdraw at any time; for usage counts, your consent; and for anonymous diagnostics, our
+legitimate interest in keeping the app working, which you can object to by turning them off.</p>
+<p>You can take your data with you from the app: <em>Profile → Account and AI → Your data</em> has
+the PDF report for your doctor and your full progress as a CSV file.</p>
+
+<h2>10 · Children</h2>
+<p>AOVI is not intended for anyone under sixteen, and we don't knowingly collect data from people
+under that age.</p>
+
+<h2>11 · Changes to this policy</h2>
+<p>If we change this policy, we will update the date and version at the top. Changes that expand
+how your data is used will ask for your consent again inside the app.</p>
+
+<footer>
+AOVI · Privacy contact: <a href="mailto:tomadrales@hotmail.com">tomadrales@hotmail.com</a> ·
+Support: <a href="https://tomadrales-jpg.github.io/aovi-legal/support/en/">tomadrales-jpg.github.io/aovi-legal/support</a>
+</footer>
+
+</main>
+</body>
+</html>
