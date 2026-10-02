@@ -39,7 +39,7 @@
 <p class="meta"><a href="https://tomadrales-jpg.github.io/aovi-legal/privacy/en/" hreflang="en" lang="en">English</a></p>
 
 <h1>Política de privacidad de AOVI</h1>
-<p class="meta">Última actualización: 1 de octubre de 2026 · Versión 2.1 · Para AOVI 2.0</p>
+<p class="meta">Última actualización: 2 de octubre de 2026 · Versión 2.2 · Para AOVI 2.0</p>
 
 <p class="lead">AOVI es una app de bienestar para iPhone y Apple Watch. Esta política explica qué
 datos trata la app, cuáles salen de tu iPhone, a dónde van, con qué permiso y cómo puedes
@@ -88,6 +88,7 @@ internet con una conexión cifrada (HTTPS) y llega a través del servicio Tailsc
 <tr><td>Cuenta (opcional)</td><td>Correo y contraseña, o Sign in with Apple (identificador; nombre y correo si decides compartirlos)</td><td>Sesión en el Llavero del iPhone; la cuenta, en nuestro servidor</td><td>Sí, al crear la cuenta o iniciar sesión</td></tr>
 <tr><td>Bienestar</td><td>Check-in WHO-5, ánimo, agua, comidas, plan, metas</td><td>iPhone</td><td>Solo lo descrito en la sección 3</td></tr>
 <tr><td>Salud y actividad</td><td>Lo que autorices de Salud (sección 4)</td><td>iPhone. Salud sigue siendo la fuente</td><td>Solo resúmenes, con el permiso «Señales de salud»</td></tr>
+<tr><td>Ciclo menstrual (opcional)</td><td>Los días de regla que apuntas en Salud y, calculada con ellos, la fase estimada de tu ciclo</td><td>iPhone. La fase no se guarda: se recalcula</td><td>Solo la fase estimada, con el permiso «Fase del ciclo». Las fechas de tu regla y el flujo, nunca</td></tr>
 <tr><td>Diario</td><td>Entradas del diario emocional</td><td>iPhone, cifradas</td><td>No</td></tr>
 <tr><td>Notas del WHO-5</td><td>Lo que escribes junto al check-in</td><td>iPhone</td><td>No</td></tr>
 <tr><td>Fotos de ropa y selfies de piel y cabello</td><td>Presencia</td><td>iPhone, cifradas y fuera de la copia de iCloud</td><td>No</td></tr>
@@ -186,10 +187,14 @@ registrada con fecha y versión, y puede retirarse en cualquier momento con efec
 <tr><td>Voz</td><td>El audio de tus turnos de voz: el servidor lo transcribe y te responde hablando. Con la voz va el mismo contexto, además de tu prioridad y tu cronotipo</td><td>Se procesa para esa respuesta y no se usa para otros fines</td></tr>
 <tr><td>Fotografías</td><td>Las fotos de comida que elijas, para estimar calorías y macronutrientes</td><td>Se procesa para la estimación y no se guarda</td></tr>
 <tr><td>Señales de salud</td><td>Resúmenes redondeados: tu WHO-5, tus medidas (Cuerpo, Mente, Nutrición y Equilibrio), variabilidad cardiaca, pulso en reposo, sueño, avisos y tus últimas acciones</td><td>Viajan con cada turno y no se almacenan por separado. Al retirar el permiso dejan de enviarse al instante</td></tr>
+<tr><td>Fase del ciclo</td><td>Solo si has activado el ciclo menstrual (sección 4): la fase estimada (menstrual, folicular, ovulatoria o lútea) y si la regla está cerca. Nunca las fechas de tu regla, el día del ciclo, su duración ni el flujo</td><td>Viaja con cada turno y no se almacena por separado. Al retirar el permiso deja de enviarse al instante</td></tr>
 </table>
 
 <ul>
   <li>Sin el permiso «Señales de salud», esos datos ni siquiera se preparan dentro de la app.</li>
+  <li>Sin el permiso «Fase del ciclo», la fase de tu ciclo no sale del iPhone: ni a nuestro
+  servidor ni a Private Cloud Compute. Es un permiso aparte del de «Señales de salud», y también
+  se concede y se retira en <em>Perfil → Salud y permisos → Ciclo menstrual</em>.</li>
   <li>Tu diario y tus notas del WHO-5 no se envían bajo ninguna finalidad.</li>
   <li>Si la app detecta palabras de crisis, no pasa ese mensaje al Coach: te enseña líneas de
   ayuda de tu país.</li>
@@ -228,12 +233,23 @@ el iPhone para calcular Cuerpo, Mente y Nutrición.</p>
 <p>AOVI escribe en Salud el agua, las comidas revisadas (energía y nutrientes, cafeína y alcohol),
 los minutos de atención plena y tu estado de ánimo cuando tú los registras o confirmas. El Apple
 Watch lee tu pulso durante la respiración guiada y guarda el ánimo y el agua que registras.</p>
+<p><strong>Ciclo menstrual (opcional).</strong> Solo si lo activas, AOVI lee de Salud los días de
+regla que tengas apuntados y estima en el iPhone la fase de tu ciclo (menstrual, folicular,
+ovulatoria o lútea) para adaptar las propuestas de entreno, comida y descanso. La app se lo ofrece
+a quien consta como mujer en Salud, y quien no conste como hombre en Salud puede activarlo o apagarlo en <em>Perfil → Salud
+y permisos → Ciclo menstrual</em>. Es una estimación de calendario con fines de bienestar: no es
+un método anticonceptivo ni de fertilidad, ni un diagnóstico. AOVI no lee síntomas ni otros datos
+de salud reproductiva, y no escribe nada del ciclo en Salud. La fase no se guarda (se recalcula
+cada vez) y no aparece en los widgets, en el Apple Watch ni en las notificaciones. Las fechas de
+tu regla y el flujo no salen del iPhone; la fase estimada solo se envía con el permiso «Fase del
+ciclo» (sección 3). Al apagarlo, AOVI deja de leer esos días y ese permiso se retira.</p>
 <ul>
   <li>Los PHQ-9 y GAD-7 solo se usan dentro de la app para suavizar las sugerencias de un día
   difícil: no se enseñan ni se envían.</li>
   <li>No usamos datos de Salud para publicidad ni marketing. No los vendemos. No los guardamos en
   iCloud.</li>
-  <li>Solo salen resúmenes, con el permiso «Señales de salud» (sección 3).</li>
+  <li>Solo salen resúmenes, con el permiso «Señales de salud», y la fase estimada del ciclo, con
+  el permiso «Fase del ciclo» (sección 3).</li>
   <li>Puedes revocar el acceso en cualquier momento desde la app Salud de iOS.</li>
 </ul>
 

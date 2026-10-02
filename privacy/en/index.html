@@ -39,7 +39,7 @@
 <p class="meta"><a href="https://tomadrales-jpg.github.io/aovi-legal/privacy/" hreflang="es" lang="es">Español</a></p>
 
 <h1>AOVI Privacy Policy</h1>
-<p class="meta">Last updated: 1 October 2026 · Version 2.1 · For AOVI 2.0</p>
+<p class="meta">Last updated: 2 October 2026 · Version 2.2 · For AOVI 2.0</p>
 
 <p class="lead">AOVI is a wellbeing app for iPhone and Apple Watch. This policy explains what data
 the app handles, what leaves your iPhone, where it goes, with which permission, and how you can
@@ -89,6 +89,7 @@ the internet through an encrypted connection (HTTPS), via the Tailscale Funnel s
 <tr><td>Account (optional)</td><td>Email and password, or Sign in with Apple (identifier; name and email if you choose to share them)</td><td>Session in the iPhone Keychain; the account on our server</td><td>Yes, when you create the account or sign in</td></tr>
 <tr><td>Wellbeing</td><td>WHO-5 check-in, mood, water, meals, plan, goals</td><td>iPhone</td><td>Only as described in section 3</td></tr>
 <tr><td>Health and activity</td><td>What you allow from Health (section 4)</td><td>iPhone. Health remains the source</td><td>Only summaries, with the "Health signals" permission</td></tr>
+<tr><td>Menstrual cycle (optional)</td><td>The period days you log in Health and, worked out from them, your estimated cycle phase</td><td>iPhone. The phase isn't stored: it is recalculated</td><td>Only the estimated phase, with the "Cycle phase" permission. Your period dates and flow, never</td></tr>
 <tr><td>Journal</td><td>Your mood journal entries</td><td>iPhone, encrypted</td><td>No</td></tr>
 <tr><td>WHO-5 notes</td><td>What you write alongside the check-in</td><td>iPhone</td><td>No</td></tr>
 <tr><td>Clothing photos and skin and hair selfies</td><td>Presence</td><td>iPhone, encrypted and excluded from iCloud backup</td><td>No</td></tr>
@@ -178,10 +179,15 @@ date and version, and can be withdrawn at any time with immediate effect.</p>
 <tr><td>Voice</td><td>The audio of your voice turns: the server transcribes it and replies out loud. The same context goes with your voice, plus your priority and your chronotype</td><td>Processed for that reply and not used for anything else</td></tr>
 <tr><td>Photos</td><td>The meal photos you choose, to estimate calories and macronutrients</td><td>Processed for the estimate and not stored</td></tr>
 <tr><td>Health signals</td><td>Rounded summaries: your WHO-5, your measures (Body, Mind, Nutrition and Balance), heart rate variability, resting heart rate, sleep, alerts and your latest actions</td><td>Sent with each turn and not stored separately. When you withdraw the permission, they stop being sent immediately</td></tr>
+<tr><td>Cycle phase</td><td>Only if you have turned on the menstrual cycle (section 4): the estimated phase (menstrual, follicular, ovulatory or luteal) and whether your period is near. Never your period dates, the day of your cycle, its length or your flow</td><td>Sent with each turn and not stored separately. When you withdraw the permission, it stops being sent immediately</td></tr>
 </table>
 
 <ul>
   <li>Without the "Health signals" permission, that data isn't even prepared inside the app.</li>
+  <li>Without the "Cycle phase" permission, your cycle phase doesn't leave the iPhone: it goes
+  neither to our server nor to Private Cloud Compute. It is separate from the "Health signals"
+  permission, and can also be granted and withdrawn in <em>Profile → Health and permissions →
+  Menstrual cycle</em>.</li>
   <li>Your journal and your WHO-5 notes are never sent for any purpose.</li>
   <li>If the app detects crisis words, it doesn't pass that message to the Coach: it shows you
   helplines for your country.</li>
@@ -221,12 +227,24 @@ Nutrition.</p>
 <p>AOVI writes water, reviewed meals (energy and nutrients, caffeine and alcohol), mindful minutes
 and your state of mind to Health when you log or confirm them. The Apple Watch reads your heart
 rate during guided breathing and saves the mood and water you log.</p>
+<p><strong>Menstrual cycle (optional).</strong> Only if you turn it on, AOVI reads the period days
+you have logged in Health and estimates your cycle phase on the iPhone (menstrual, follicular,
+ovulatory or luteal) to adapt its training, food and rest suggestions. The app offers it to people
+whose sex in Health is female, and anyone whose sex in Health is not male can turn it on or off in <em>Profile → Health and
+permissions → Menstrual cycle</em>. It is a calendar estimate for wellbeing purposes: it is not a
+method of contraception or fertility tracking, and it is not a diagnosis. AOVI doesn't read
+symptoms or any other reproductive health data, and writes nothing about your cycle to Health. The
+phase isn't stored (it is recalculated each time) and doesn't appear in widgets, on the Apple Watch
+or in notifications. Your period dates and flow don't leave the iPhone; the estimated phase is
+only sent with the "Cycle phase" permission (section 3). When you turn it off, AOVI stops reading
+those days and that permission is withdrawn.</p>
 <ul>
   <li>PHQ-9 and GAD-7 are only used inside the app to soften the suggestions on a difficult day:
   they are never shown or sent.</li>
   <li>We don't use Health data for advertising or marketing. We don't sell it. We don't store it
   in iCloud.</li>
-  <li>Only summaries leave the device, with the "Health signals" permission (section 3).</li>
+  <li>Only summaries leave the device, with the "Health signals" permission, and your estimated
+  cycle phase, with the "Cycle phase" permission (section 3).</li>
   <li>You can revoke access at any time in the iOS Health app.</li>
 </ul>
 
